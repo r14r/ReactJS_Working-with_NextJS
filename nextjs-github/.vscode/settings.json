@@ -1,0 +1,15 @@
+{
+	"editor.formatOnSave": true,
+	"prettier.singleQuote": true,
+	"prettier.useTabs": true,
+	"prettier.tabWidth": 4,
+	"files.exclude": {
+		"**/.setenv": true,
+		"**/.env.d": true,
+		"**/node_modules": true,
+		"**/.githooks": true,
+		"**/.gitignore": true,
+		"**/Xpackage.json": true,
+		"**/package-lock.json": true
+	}
+}

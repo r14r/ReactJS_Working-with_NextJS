@@ -1,0 +1,20 @@
+{
+  "bail": true,
+  "testEnvironment": "jsdom",
+  "setupTestFrameworkScriptFile": "./testSetup.js",
+  "snapshotSerializers": [
+    "enzyme-to-json/serializer"
+  ],
+  "coveragePathIgnorePatterns": [
+    "./.next/",
+    "./coverage/"
+  ],
+  "coverageThreshold": {
+    "global": {
+      "branches": 70,
+      "functions": 70,
+      "lines": 70,
+      "statements": 70
+    }
+  }
+}
